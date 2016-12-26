@@ -1,4 +1,9 @@
-public class TextEditor extends JFrame implements ActionListener {
+import java.awt.*;
+import java.io.*;
+import javax.swing.*;
+
+
+public class TextEditor extends JFrame {
     private JPanel mainPanel;
     public TextEditor() {
 	mainPanel = new JPanel();
@@ -8,6 +13,6 @@ public class TextEditor extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
-	    new JPanel();
+	    new TextEditor();
     }
 }
